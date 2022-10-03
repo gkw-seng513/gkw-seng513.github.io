@@ -1,0 +1,184 @@
+
+/* https: //www.javatpoint.com/how-to-use-google-fonts-in-css */
+@import url('https://fonts.googleapis.com/css?family=El+Messiri');
+@import url('https://fonts.googleapis.com/css?family=Bungee+Inline');
+@import url('https://fonts.googleapis.com/css?family=Bungee+Hairline');
+@import url('https://fonts.googleapis.com/css?family=Offside');
+@import url('https://fonts.googleapis.com/css?family=Nova+Slim');
+
+/*
+super accent: #319ED8
+accent: #BFDBF7
+light: #A1D0E2
+off-white: #E7ECF6
+dark-accent: #022B3A
+complimentary accent: #c1666b
+dark-turquoise: #74bdcb 
+*/
+.center{
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    object-fit: scale-down;
+}
+
+img.sliver {
+    max-height: 120px;
+    width: 100%;
+    object-fit: cover;
+}
+
+img.best_photo{
+    width:100%;
+    object-fit:cover;
+}
+/* background image: 
+https: //www.pexels.com/photo/aerial-view-of-a-landscape-12083874/
+ */
+body{
+    background-image: url(./imgs/pexels-laura-paredis-13257238.jpg);
+    background-color: white;
+    background-size: cover;
+}
+
+
+/* https: //stackoverflow.com/questions/712689/css-div-stretch-100-page-height */
+.all_content {
+    
+    font-family: El Messiri, sans-serif;
+    /* background-color: whitesmoke; */
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 auto; /* in conjunction with footers 
+    flex-shrink makes, makes footer stay at bottom*/
+    margin: auto; /* centers a block element */
+    margin-top: -10px;  
+    margin-bottom: -10px;
+    /* padding: 20px; */
+    min-height: 100vh;
+        /* make it full height of page */
+    max-width: 800px;
+}
+
+section {
+    display: block;
+    background-color: rgba(245, 245, 245, 0.88);
+    
+    min-height: 90vh;
+    padding: 30px;
+    padding-top: 10px;
+    
+}
+
+/* Photo by Nikita from Pexels: https: //www.pexels.com/photo/linear-traces-on-ground-covered-with-snow-7745312/ */
+header{
+    background-color: none;
+    background: none;
+    /* background-color: #8B877E ; */
+    color: #ECBC51;
+    text-align: center;
+    font-size:larger;
+    font-family: 'Bungee Hairline', 'Nova Slim';
+}
+
+/* https: //www.w3schools.com/csS/css3_flexbox_container.asp#flex-wrap */
+/* Photo by Laura Paredis from Pexels: https: //www.pexels.com/photo/light-dawn-landscape-sunset-13257238/ */
+nav {
+    background-color: rgba(224, 162, 56, 0.278);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+nav a:hover {
+    color: #91502E;
+}
+
+a {
+    color: #000;
+}
+
+a:hover {
+    color:#1967ac;
+}
+
+nav a {
+    color: #323232;/* #EFE7BC; */
+    font-family: 'Nova Slim', 'Offside';
+    padding: 10px;
+    text-decoration: none;
+}
+
+h2, h3 {
+    font-family: 'Nova Slim';
+}
+
+h2 {
+    text-align: center;
+    letter-spacing: 4px;
+    font-size:xx-large;
+
+}
+
+.sub {
+    font-size:large;
+}
+
+h3 {
+    color: #024075;
+}
+
+footer {
+    flex-shrink: 0;
+    font-weight: bolder;
+    margin-top: auto;   /* forces to bottom */
+    text-align: center;
+    background-color: #D0D0D0;
+    /* background-color: #050304; periwinkle */
+    color: #024075; 
+}
+
+table {
+    width: 100%
+}
+/* https: //www.w3schools.com/html/html_table_padding_spacing.asp */
+th,
+td {
+    padding-top: 5px;
+    padding-left: 10px;
+    /* background-color: rgba(255, 255, 255, 0.4); */
+    /* background-color: rgba(223, 187, 97, 0.4); */
+    background-color: rgba(17, 54, 150, 0.2);
+    text-align: left;
+}
+
+th {
+    background-color: rgba(17, 54, 150, 0.3);
+}
+
+.fancy_form{
+    margin: auto;
+    max-width: 75%;
+}
+
+#subject{
+    height:200px;
+    width:100%;
+    padding: 10px;
+    border: 1px solid #C7C7C7;
+    box-sizing: border-box;
+}
+
+input[type=text], select {
+    text-align:left;
+    vertical-align: top;
+    width: 100%;
+    margin-bottom:15px;
+    padding: 10px;
+    display: inline-block;
+    border: 1px solid #C7C7C7;
+    box-sizing: border-box;
+}
