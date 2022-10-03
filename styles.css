@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css?family=El+Messiri');
 @import url('https://fonts.googleapis.com/css?family=Bungee+Hairline');
 @import url('https://fonts.googleapis.com/css?family=Nova+Slim');
+@import url('https://fonts.googleapis.com/css?family=Nova+Flat');
 
 .center{
     text-align: center;
@@ -63,7 +64,7 @@ header{
     color: #ECBC51;
     text-align: center;
     font-size:larger;
-    font-family: 'Bungee Hairline';
+    font-family: 'Nova Flat', 'Bungee Hairline';
 }
 
 /* https: //www.w3schools.com/csS/css3_flexbox_container.asp#flex-wrap */
