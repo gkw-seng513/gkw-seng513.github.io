@@ -67,8 +67,12 @@ header{
     letter-spacing: -3px;
     word-spacing: 7px;
     text-transform: uppercase;
-    text-shadow:  -2px 1px 8px #ffa006cf,-1px -2px 13px #f5d18ae1, -2px -1px 13px #e7862c97, 6px -6px 3px #edaa24ab, 5px 5px 10px #fff2bc,
-        -4px 2px 14px #f8e69eda;
+    /* text-shadow:  -2px 1px 8px #ffa006cf,-1px -2px 13px #f5d18ae1, -2px -1px 13px #e7862c97, 6px -6px 3px #edaa24ab, 5px 5px 10px #fff2bc,
+        -4px 2px 14px #f8e69eda; */
+    text-shadow: -2px 1px 8px #ffa006cf, 
+                -1px -2px 13px #f5d18ae1, 
+                5px 5px 10px #fff2bc,
+                -4px 2px 14px #f8e69eda;
     text-align: center;
     font-size:larger;
     font-weight: 100;
